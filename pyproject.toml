@@ -1,0 +1,17 @@
+[project]
+name = "adaptive-llm-course-portfolio"
+version = "1.0.0"
+description = "Traditional, OpenAI, and adaptive Gradio chatbot exercises"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+

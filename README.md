@@ -10,7 +10,7 @@ This repository contains the complete source package for the GitHub, development
 - A traditional rule-based chatbot.
 - An OpenAI chatbot using the Responses API.
 - An adaptive mode that detects language, sentiment, urgency, and preferred response density, then changes its interaction style.
-- Automated tests, screenshots, assignment reports, and submission packaging instructions.
+- Automated tests, assignment reports, and submission packaging instructions.
 
 ## Quick start on Windows
 
@@ -53,9 +53,9 @@ The script uses base R only and writes its graph and summary to `artifacts/`.
 
 The intended private remote is:
 
-`https://github.com/jamesris1/adaptive-llm-course-portfolio`
+`https://github.com/Jamesris1/adaptive-ai-course-portfolio`
 
-Before submission, confirm that the repository is private, invite the instructor using the exact GitHub username supplied by the course, and replace the bracketed title-page fields in the reports. See `docs/submission_checklist.md` for the final human review.
+Before submission, invite the instructor using the exact GitHub username supplied by the course and complete the final human review in `docs/submission_checklist.md`.
 
 ## Directory guide
 
@@ -69,11 +69,9 @@ notebooks/                     Python/Jupyter exercise
 r/                             R exercise
 scripts/                       Reproducible analysis and packaging helpers
 docs/reports/                  APA-style assignment reports
-docs/figures/                  Verified screenshots and charts
 submission/                    Final ZIP archive
 ```
 
 ## Academic-use note
 
-Review every report, screenshot, citation, and result before submitting. Replace the clearly marked personal/course placeholders and ensure the narrative accurately reflects the experience you intend to represent as your own.
-
+Review every report, citation, and result before submitting. Personalize the narrative so it accurately reflects your own experience and conclusions.

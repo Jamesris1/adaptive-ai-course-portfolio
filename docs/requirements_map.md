@@ -13,7 +13,10 @@ This file distinguishes the user's request from the attached instructional mater
 | Include a source-code ZIP | `submission/adaptive-ai-course-portfolio-source.zip` | ZIP content audit |
 | Create graphs in Python and R | `scripts/run_analysis.py`, notebook, and `r/data_science_exercises.R` | Python run; R run when the R runtime is available |
 | Create a program more complex than a temperature conversion | Study-plan recommender in Python and R | Automated Python test and output summaries |
-| Prototype a simple traditional chatbot | Rule-based mode in `traditional.py` and Gradio UI | Unit test and browser test |
+| Prototype a simple traditional chatbot | Standalone `week3_traditional_chatbot/` package plus the portfolio rule-based mode | Unit tests and text-only verification record |
+| Respond to multiple prompts and list capabilities | Week 3 intent rules and `What can you do?` response | Automated intent tests |
+| Handle malformed or unsupported input | Blank, punctuation-only, overlong, and unknown-topic recovery messages | Automated boundary tests |
+| Submit a 5-7 page APA report, project ZIP, and GitHub URL | Week 3 report, source archive, and repository link | Page/render review and ZIP content audit |
 | Integrate an AI service and write a 5-7 page APA report | OpenAI Responses API adapter and report | Fake-client integration test; live call requires the user's key |
 | Define and demonstrate an AI-based adaptive UI | Language, sentiment, urgency, and response-density adaptation | Unit tests, UI status panel, adaptive report |
 
@@ -23,3 +26,5 @@ This file distinguishes the user's request from the attached instructional mater
 - A live OpenAI key was not present; the app uses transparent offline demonstration mode until the user adds a key locally.
 - Course and instructor details were supplied and applied consistently to all report title pages.
 - R 4.6.1 was installed and the base-R exercise was executed successfully.
+- The course handout presents Microsoft Bot Framework, Anaconda, Python 3.8.2, Visual Studio Code, and Bot Framework Emulator as an example path; it explicitly permits another framework. The Week 3 project uses Python 3.12 and Gradio.
+- The handout requests screenshots, while the user's direct instruction requires text-only deliverables. Testing is documented with prose, automated results, and a text transcript.

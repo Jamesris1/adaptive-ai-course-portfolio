@@ -5,7 +5,7 @@ description = "Traditional, OpenAI, and adaptive Gradio chatbot exercises"
 requires-python = ">=3.12"
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["tests", "week3_traditional_chatbot"]
 addopts = "-ra"
 
 [tool.ruff]
@@ -14,4 +14,3 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B"]
-

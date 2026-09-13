@@ -18,7 +18,7 @@
 ## Application and evidence
 
 - [ ] Add `OPENAI_API_KEY` only to a local `.env`; never put it in a report, commit, or ZIP.
-- [ ] Run `python -m pytest -q` and confirm all tests pass.
+- [x] Run `python -m pytest -q` and confirm all tests pass.
 - [ ] Run `python scripts/run_analysis.py` and inspect the Python graph.
 - [ ] Run `Rscript r/data_science_exercises.R` after installing R and inspect the R graph.
 - [ ] Run `python app.py` and manually test all three chatbot modes.
@@ -26,6 +26,10 @@
 
 ## Reports and packaging
 
+- [x] Open `week3_traditional_chatbot/` and confirm the bot is entirely rule-based.
+- [x] Run the Week 3 automated tests.
+- [ ] Complete the manual browser interactions in `VERIFICATION.md`.
+- [x] Confirm the Week 3 ZIP contains source and documentation but no environment, cache, secret, screenshot, or image files.
 - [ ] Read every report in full and make the first-person narrative accurately yours.
 - [ ] Confirm APA title pages, page numbers, double spacing, in-text citations, and references.
 - [ ] Inspect the ZIP and confirm it excludes `.env`, `.venv`, `.git`, caches, and secrets.

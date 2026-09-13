@@ -8,6 +8,7 @@ This repository contains the complete source package for the GitHub, development
 - A small Hello World smoke test.
 - Python and R data-science exercises with customized graphs and a study-planning program.
 - A traditional rule-based chatbot.
+- A standalone Week 3 traditional-chatbot submission package.
 - An OpenAI chatbot using the Responses API.
 - An adaptive mode that detects language, sentiment, urgency, and preferred response density, then changes its interaction style.
 - Automated tests, assignment reports, and submission packaging instructions.
@@ -69,6 +70,7 @@ notebooks/                     Python/Jupyter exercise
 r/                             R exercise
 scripts/                       Reproducible analysis and packaging helpers
 docs/reports/                  APA-style assignment reports
+week3_traditional_chatbot/     Standalone non-LLM Week 3 project
 submission/                    Final ZIP archive
 ```
 

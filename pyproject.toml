@@ -5,7 +5,7 @@ description = "Traditional, OpenAI, and adaptive Gradio chatbot exercises"
 requires-python = ">=3.12"
 
 [tool.pytest.ini_options]
-testpaths = ["tests", "week3_traditional_chatbot"]
+testpaths = ["tests", "week3_traditional_chatbot", "week3_azure_ai_chatbot"]
 addopts = "-ra"
 
 [tool.ruff]

@@ -17,6 +17,8 @@ This file distinguishes the user's request from the attached instructional mater
 | Respond to multiple prompts and list capabilities | Week 3 intent rules and `What can you do?` response | Automated intent tests |
 | Handle malformed or unsupported input | Blank, punctuation-only, overlong, and unknown-topic recovery messages | Automated boundary tests |
 | Submit a 5-7 page APA report, project ZIP, and GitHub URL | Week 3 report, source archive, and repository link | Page/render review and ZIP content audit |
+| Connect a traditional chatbot to a cloud AI service | `week3_azure_ai_chatbot/` with Azure AI Language sentiment analysis | Fake-client integration tests; live Azure check requires the student's resource |
+| Disclose AI used for the Azure assignment | Disclosure in the Azure project README and APA report | Text review |
 | Integrate an AI service and write a 5-7 page APA report | OpenAI Responses API adapter and report | Fake-client integration test; live call requires the user's key |
 | Define and demonstrate an AI-based adaptive UI | Language, sentiment, urgency, and response-density adaptation | Unit tests, UI status panel, adaptive report |
 

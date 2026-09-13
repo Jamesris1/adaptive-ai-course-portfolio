@@ -30,6 +30,10 @@
 - [x] Run the Week 3 automated tests.
 - [ ] Complete the manual browser interactions in `VERIFICATION.md`.
 - [x] Confirm the Week 3 ZIP contains source and documentation but no environment, cache, secret, screenshot, or image files.
+- [ ] Configure the student's Azure AI Language F0 resource locally.
+- [ ] Record one positive, negative, and neutral live Azure result without exposing the key.
+- [ ] Complete the Azure chatbot manual browser checks.
+- [ ] Confirm the Azure ZIP excludes `.env`, credentials, caches, screenshots, and images.
 - [ ] Read every report in full and make the first-person narrative accurately yours.
 - [ ] Confirm APA title pages, page numbers, double spacing, in-text citations, and references.
 - [ ] Inspect the ZIP and confirm it excludes `.env`, `.venv`, `.git`, caches, and secrets.

@@ -26,14 +26,14 @@ Verified September 12, 2026:
 
 These checks validate the local application and Azure integration boundary. They do not replace the live Azure acceptance test below.
 
-## Required live Azure check
+## Live Azure acceptance check
 
-This check must use the student's own Azure AI Language free-tier resource.
+Verified September 12, 2026 with the student-owned Azure AI Language F0 resource in Canada Central:
 
-| Input type | Example | Expected evidence |
-|---|---|---|
-| Positive | I am excited that the chatbot is working. | Positive label and three confidence scores |
-| Negative | This setup is frustrating and difficult. | Negative label and three confidence scores |
-| Neutral | The assignment is due this week. | Neutral or mixed label and three confidence scores |
+| Input type | Test statement | Actual label | Positive | Neutral | Negative | Result |
+|---|---|---:|---:|---:|---:|---:|
+| Positive | I am excited that the chatbot is working. | Positive | 1.0000 | 0.0000 | 0.0000 | Pass |
+| Negative | This setup is frustrating and difficult. | Negative | 0.0000 | 0.0000 | 1.0000 | Pass |
+| Neutral | The assignment is due this week. | Neutral | 0.0000 | 0.9700 | 0.0300 | Pass |
 
-Do not record the endpoint key. If a label differs from the expectation, record the actual result rather than changing it.
+All three live calls returned the intended label and three confidence scores. The Azure key was used only in memory for the acceptance test and was then cleared from the browser clipboard and local process. It was not saved in this repository, the report, or the submission archive.

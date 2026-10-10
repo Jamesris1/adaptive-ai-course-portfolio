@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adaptive Study Desk</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.mjs"></script>
+</head>
+<body>
+  <header class="masthead">
+    <div><p class="eyebrow">AI + HUMAN–COMPUTER INTERACTION</p><h1>Adaptive Study Desk</h1>
+    <p>Practice finding study information in a view that learns from completed tasks.</p></div>
+    <span class="prototype">Coursework prototype</span>
+  </header>
+  <main>
+    <section class="panel controls" aria-labelledby="preferences-title">
+      <h2 id="preferences-title">Your preferences</h2>
+      <div class="control-grid">
+        <label>View preference<select id="preference"><option value="auto">Automatic</option><option value="guided">Guided</option><option value="compact">Compact</option></select></label>
+        <label>Practice task<select id="context"><option value="deadline">Find a deadline</option><option value="priority">Choose a priority</option><option value="requirements">Check requirements</option></select></label>
+        <button id="next" type="button">Start next task</button>
+      </div>
+      <label class="checkbox"><input id="learning" type="checkbox"> Learn from my task interactions (on this device)</label>
+      <p class="small">Learning starts only when you enable it. View changes take effect at the next task. No account or external AI service is used.</p>
+      <p id="storage-status" class="small"></p>
+    </section>
+    <section class="panel workspace" aria-labelledby="task-title">
+      <div class="task-heading"><div><p id="task-number" class="eyebrow"></p><h2 id="task-title" tabindex="-1"></h2></div><span id="mode-badge" class="mode-badge"></span></div>
+      <p id="mode-reason" class="small"></p>
+      <p class="sample-note">All assignments below are fictional practice data.</p>
+      <div id="study-data"></div>
+      <button id="hint-button" type="button" aria-expanded="false" aria-controls="hint">Show a hint</button>
+      <p id="hint" class="hint" hidden></p>
+      <form id="answer-form">
+        <fieldset><legend id="question"></legend><div id="answers" class="answers"></div></fieldset>
+        <button id="check" type="submit" class="primary">Check answer</button>
+      </form>
+      <p id="feedback" role="status" aria-live="polite"></p>
+    </section>
+    <section class="panel learning-panel" aria-labelledby="learning-title">
+      <div class="task-heading"><h2 id="learning-title">What the interface has learned</h2><button id="reset" type="button">Clear learned data</button></div>
+      <p class="small">Each task type has separate estimates. Automatic mode explores both views and then weighs their mean rewards. The score uses time, incorrect attempts, and hint requests; it is an experimental measure, not a grade.</p>
+      <div class="table-scroll"><table><caption>Completed learning tasks and mean reward by view</caption><thead><tr><th scope="col">Task</th><th scope="col">Guided</th><th scope="col">Compact</th></tr></thead><tbody id="statistics"></tbody></table></div>
+      <p class="small">Only counts and mean rewards are saved in this browser. Clearing removes the model. Blocked storage keeps learning in memory; private browsing may clear saved statistics when its window closes.</p>
+    </section>
+  </main>
+  <footer>Original AI-assisted coursework by James Ristine · UCB bandit concepts: Sutton &amp; Barto (2018)</footer>
+</body>
+</html>

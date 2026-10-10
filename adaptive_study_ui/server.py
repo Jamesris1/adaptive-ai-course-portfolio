@@ -1,4 +1,4 @@
-"""Local-only coursework server. Created with OpenAI Codex assistance.
+"""Local-only coursework server.
 
 No package installation is needed. Run: python server.py [--port 8765]
 """

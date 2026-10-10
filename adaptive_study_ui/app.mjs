@@ -1,4 +1,3 @@
-// Original implementation created with OpenAI Codex assistance; see README.
 import { createProfile, sanitizeProfile, chooseMode, recordOutcome } from './learner.mjs';
 
 const key = 'adaptive-study-desk-v1';

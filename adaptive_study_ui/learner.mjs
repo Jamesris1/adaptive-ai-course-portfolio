@@ -1,5 +1,4 @@
 /**
- * Original coursework implementation, created with AI assistance.
  * Contextual upper-confidence-bound action selection is based on the bandit
  * concepts in Sutton and Barto (2018), Reinforcement Learning: An Introduction,
  * and the UCB1 selection rule of Auer, Cesa-Bianchi, and Fischer (2002).

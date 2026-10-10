@@ -71,7 +71,7 @@ Node.js is optional and needed only to run `node tests.mjs`. The tests check exp
 
 A meaningful future evaluation would compare both layouts and automatic adaptation with consenting participants, balancing task order and measuring errors, time, accessibility, perceived control, and satisfaction. The current prototype does not claim a human usability study.
 
-## Sources and AI assistance
+## Sources and development
 
 Auer, P., Cesa-Bianchi, N., & Fischer, P. (2002). Finite-time analysis of the multiarmed bandit problem. *Machine Learning, 47*(2–3), 235–256. <https://doi.org/10.1023/A:1013689704352>
 
@@ -79,4 +79,4 @@ Sutton, R. S., & Barto, A. G. (2018). *Reinforcement learning: An introduction* 
 
 The contextual UCB implementation was written for this assignment using bandit concepts described by Sutton and Barto and the UCB1 selection rule described by Auer and colleagues. It is not a copied external example project. Python and browser standard-library/platform facilities provide the server and interface; there are no external application dependencies.
 
-OpenAI Codex assisted with creating the interface, learning module, server, and tests, debugging, source research, and drafting the accompanying APA report. The report includes the assignment's AI-assistance disclosure. James must review and understand the code and revise any first-person account to match his own work and experience before submission.
+AI tool disclosure: Codex assisted with code development and debugging, source research, and report drafting.
